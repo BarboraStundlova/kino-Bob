@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KINO BOB</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <div class="main">
+  <img src="img/popcorn.jpg" id="banner" alt="popcorn">
+  <h1>KINO BOB</h1>
+  <h2 class="headline">
+      Vítejte v kině Bob.
+  </h2>
+  <p>Rezervace lístku</p>
+  <div class="selects">
+
+  <div>
+  <label for="day">Den</label>
+  <select id="day" name="day">
+    <option value="day0" id="day0"></option>
+    <option value="day1" id="day1"></option>
+    <option value="day2" id="day2"></option>
+    <option value="day3" id="day3"></option>
+    <option value="day4" id="day4"></option>
+    <option value="day5" id="day5"></option>
+    <option value="day6" id="day6"></option>
+  </select></div>
+
+  <div>
+  <label for="session">Čas</label>
+  <select id="session" name="session">
+    <option value="session0" id="session0"></option>
+    <option value="session1" id="session1"></option>
+    <option value="session2" id="session2"></option>
+    <option value="session3" id="session3"></option>
+    <option value="session4" id="session4"></option>
+    <option value="session5" id="session5"></option>
+    </select></div>
+
+   <button type="submit" id="buttonPick" onclick="loadMovieName()">Co promítáme?</button>
+  </div>
+  <div id="content">
+  <h1 id="movie"></h1>
+<div class="audience" id="audience"></div>
+<div class="screen"> 🢂PLÁTNO ZDE🢀</div>
+
+
+
+
+
+  </div>
+  </div>
+  <script src="film.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+</html>
