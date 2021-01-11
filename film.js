@@ -98,10 +98,10 @@ const movies = {
           name: 'Bankéř',
         },
         {
-          name: 'Mizerové navždy,
+          name: 'Mizerové navždy',
         },
         {
-          name: 'Neviditelný,
+          name: 'Neviditelný',
         },
       ],
 
