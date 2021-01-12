@@ -6,9 +6,9 @@ const month = (date.getMonth() + 1).toString().padStart(2, '0');
 const day = date.getDate().toString().padStart(2, '0');
 document.getElementById('day').value = `${date.getFullYear()}-${month}-${day}`;
 const minDate = new Date();
-minDate.setDate(minDate.getDate() - 7);
+minDate.setDate(minDate.getDate() - 6);
 const maxDate = new Date();
-maxDate.setDate(maxDate.getDate() + 7);
+maxDate.setDate(maxDate.getDate() + 6);
 document.getElementById('day').min = `${minDate.getFullYear()}-${(
   minDate.getMonth() + 1
 )
