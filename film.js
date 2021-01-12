@@ -3,7 +3,7 @@ const movies = {
     {
       session: [
         {
-          name: 'David Attenborough: Život na naší planet',
+          name: 'David Attenborough: Život na naší planetě',
         },
         {
           name: 'Moje učitelka chobotnice',
@@ -66,7 +66,7 @@ const movies = {
     {
       session: [
         {
-          name: 'David Attenborough: Život na naší planet',
+          name: 'David Attenborough: Život na naší planetě',
         },
         {
           name: 'Moje učitelka chobotnic',
@@ -131,7 +131,7 @@ const movies = {
     {
       session: [
         {
-          name: 'David Attenborough: Život na naší planet',
+          name: 'David Attenborough: Život na naší planetě',
         },
         {
           name: 'Moje učitelka chobotnice',
