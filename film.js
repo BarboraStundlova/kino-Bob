@@ -7,7 +7,8 @@ const movies = {
         },
         {
           name: 'Moje učitelka chobotnice',
-        },{
+        },
+        {
           name: 'Tajemství a smysl života',
         },
         {
@@ -24,136 +25,135 @@ const movies = {
     {
       session: [
         {
-          name: 'Šarlatána'
+          name: 'Šarlatán',
         },
         {
           name: 'Gentlemania',
-        },{
-          name: 'Vyproštěnía',
         },
         {
-          name: 'Teneta',
+          name: 'Vyproštění',
         },
         {
-          name: 'Frčímea',
+          name: 'Tenet',
         },
         {
-          name: 'Eurovizea',
+          name: 'Frčíme',
+        },
+        {
+          name: 'Eurovize',
         },
       ],
     },
     {
       session: [
         {
-          name: 'David Attenborough: Život na naší planetě',
+          name: 'Salavtion',
         },
         {
           name: 'Moje učitelka chobotnice',
-        },{
-          name: 'Tajemství a smysl života',
         },
         {
-          name: 'Bankéř',
+          name: 'Kruh',
         },
         {
-          name: 'Mizerové navždy',
-        },
-        {
-          name: 'Neviditel',
-        },
-      ],
-    },
-    {
-      session: [
-        {
-          name: 'David Attenborough: Život na naší planetě',
-        },
-        {
-          name: 'Moje učitelka chobotnic',
-        },{
-          name: 'Tajemství a smysl život',
-        },
-        {
-          name: 'Banké',
-        },
-        {
-          name: 'Mizerové navžd',
-        },
-        {
-          name: 'Neviditeln',
-        },
-      ],
-    },
-    {
-      session: [
-        {
-          name: 'David Attenborough: Život na naší planetě',
+          name: 'Ledové království 2',
         },
         {
           name: 'Moje učitelka chobotnice',
-        },{
-          name: 'Tajemství a smysl života',
         },
         {
-          name: 'Bankéř',
-        },
-        {
-          name: 'Mizerové navždy',
-        },
-        {
-          name: 'Neviditelný',
+          name: 'Valkýra',
         },
       ],
-
     },
     {
       session: [
         {
-          name: 'David Attenborough: Život na naší planetě',
+          name: 'Ledové království 2',
         },
         {
           name: 'Moje učitelka chobotnice',
-        },{
-          name: 'Tajemství a smysl života',
         },
         {
-          name: 'Bankéř',
+          name: 'Predátor',
         },
         {
-          name: 'Mizerové navždy',
+          name: 'Kruh',
         },
         {
-          name: 'Neviditelný',
+          name: 'Jumanji',
+        },
+        {
+          name: 'Ledové království 2',
         },
       ],
-
     },
     {
       session: [
         {
-          name: 'David Attenborough: Život na naší planetě',
+          name: 'Blade runner 2048',
+        },
+        {
+          name: 'Alenka v říši divů',
+        },
+        {
+          name: 'Nekonečný příběh',
+        },
+        {
+          name: 'Konstantin',
+        },
+        {
+          name: 'Žralocí tornádo',
+        },
+        {
+          name: 'Harry Potter a Kámen mudrců',
+        },
+      ],
+    },
+    {
+      session: [
+        {
+          name: 'Alenka v říši divů',
+        },
+        {
+          name: 'Detektiv Pikachu',
+        },
+        {
+          name: 'Lupin',
+        },
+        {
+          name: 'Simpsonovi ve filmu',
+        },
+        {
+          name: 'Detektiv Pikachu',
+        },
+        {
+          name: 'Jako kočky a psi',
+        },
+      ],
+    },
+    {
+      session: [
+        {
+          name: 'Detektiv Pikachu',
         },
         {
           name: 'Moje učitelka chobotnice',
-        },{
-          name: 'Tajemství a smysl života',
         },
         {
-          name: 'Bankéř',
+          name: 'Detektiv Pikachu',
         },
         {
-          name: 'Mizerové navždy',
+          name: 'Detektiv Pikachu',
         },
         {
-          name: 'Neviditelný',
+          name: 'Cesta kolem světa za 80 dní ',
+        },
+        {
+          name: 'Dracula',
         },
       ],
-
     },
-  
-
-
-
   ],
 };
 

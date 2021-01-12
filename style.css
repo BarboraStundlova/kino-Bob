@@ -67,6 +67,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #buttonPick {
@@ -84,6 +85,9 @@ p {
 }
 .seatButton:hover {
   filter: brightness(180%);
+}
+.seatButton:disabled:hover {
+  filter: none;
 }
 .selects {
   display: flex;
