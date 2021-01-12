@@ -1,40 +1,37 @@
 'use strict';
 document.getElementById('content').style.display = 'none';
-const date = new Date();
-let weekday = new Array(7);
 
-weekday[1] = 'Pondělí';
-weekday[2] = 'Úterý';
-weekday[3] = 'Středa';
-weekday[4] = 'Čtvrtek';
-weekday[5] = 'Pátek';
-weekday[6] = 'Sobota';
-weekday[0] = 'Neděle';
-weekday[7] = 'Neděle';
-let dayName = weekday[date.getDay()];
+const inputDate = (n) => {
+  const date = new Date();
+  date.setDate(date.getDate() + n);
+  let weekday = new Array(7);
+  weekday[1] = 'Pondělí';
+  weekday[2] = 'Úterý';
+  weekday[3] = 'Středa';
+  weekday[4] = 'Čtvrtek';
+  weekday[5] = 'Pátek';
+  weekday[6] = 'Sobota';
+  weekday[0] = 'Neděle';
+  weekday[7] = 'Neděle';
+  let dayName = weekday[date.getDay()];
+
+  const input = `${dayName} ${date.getDate()}. ${
+    date.getMonth() + 1
+  }. ${date.getFullYear()}`;
+
+  return input;
+};
+
+const date = new Date();
 
 let dayInput = [
-  `${weekday[date.getDay()]} ${date.getDate()}. ${
-    date.getMonth() + 1
-  }. ${date.getFullYear()}`,
-  `${weekday[date.getDay() + 1]} ${date.getDate() + 1}. ${
-    date.getMonth() + 1
-  }. ${date.getFullYear()}`,
-  `${weekday[date.getDay() + 2]} ${date.getDate() + 2}. ${
-    date.getMonth() + 1
-  }. ${date.getFullYear()}`,
-  `${weekday[date.getDay() + 3]} ${date.getDate() + 3}. ${
-    date.getMonth() + 1
-  }. ${date.getFullYear()}`,
-  `${weekday[date.getDay() + 4]} ${date.getDate() + 4}. ${
-    date.getMonth() + 1
-  }. ${date.getFullYear()}`,
-  `${weekday[date.getDay() + 5]} ${date.getDate() + 5}. ${
-    date.getMonth() + 1
-  }. ${date.getFullYear()}`,
-  `${weekday[date.getDay() + 6]} ${date.getDate() + 6}. ${
-    date.getMonth() + 1
-  }. ${date.getFullYear()}`,
+  inputDate(0),
+  inputDate(1),
+  inputDate(2),
+  inputDate(3),
+  inputDate(4),
+  inputDate(5),
+  inputDate(6),
 ];
 
 for (let i = 0; i < dayInput.length; i += 1) {
