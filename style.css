@@ -109,3 +109,8 @@ p {
   background-color: #ffd833;
   color: #661626;
 }
+
+#day,
+#session {
+  font-family: 'Roboto', sans-serif;
+}
